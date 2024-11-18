@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/crisan007/Desktop/PAOO1/src/Atom/atom.cpp" "/home/crisan007/Desktop/PAOO1/build/src/Atom/CMakeFiles/Atom.dir/atom.cpp.o"
+  "/home/crisan007/Desktop/Tema_2_ok/Tema_2/src/Atom/atom.cpp" "/home/crisan007/Desktop/Tema_2_ok/Tema_2/build/src/Atom/CMakeFiles/Atom.dir/atom.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

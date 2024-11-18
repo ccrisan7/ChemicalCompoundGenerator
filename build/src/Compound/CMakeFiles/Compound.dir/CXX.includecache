@@ -6,18 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../src/Atom/atom.cpp
-iostream
--
-fstream
--
-string
--
-unordered_map
--
-atom.hpp
-../src/Atom/atom.hpp
-
 ../src/Atom/atom.hpp
 iostream
 -
@@ -28,7 +16,7 @@ string
 unordered_map
 -
 
-/home/crisan007/Desktop/PAOO1/src/Compound/compound_substance.cpp
+/home/crisan007/Desktop/Tema_2_ok/Tema_2/src/Compound/compound_substance.cpp
 iostream
 -
 vector
@@ -38,9 +26,9 @@ unordered_map
 string
 -
 compound_substance.hpp
-/home/crisan007/Desktop/PAOO1/src/Compound/compound_substance.hpp
+/home/crisan007/Desktop/Tema_2_ok/Tema_2/src/Compound/compound_substance.hpp
 
-/home/crisan007/Desktop/PAOO1/src/Compound/compound_substance.hpp
+/home/crisan007/Desktop/Tema_2_ok/Tema_2/src/Compound/compound_substance.hpp
 iostream
 -
 vector
@@ -49,6 +37,6 @@ unordered_map
 -
 string
 -
-atom.cpp
-/home/crisan007/Desktop/PAOO1/src/Compound/atom.cpp
+atom.hpp
+/home/crisan007/Desktop/Tema_2_ok/Tema_2/src/Compound/atom.hpp
 

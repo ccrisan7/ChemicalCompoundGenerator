@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/crisan007/Desktop/PAOO1/src/Atom -I/home/crisan007/Desktop/PAOO1/src/Compound 
+CXX_INCLUDES = -I/home/crisan007/Desktop/Tema_2_ok/Tema_2/src/Atom -I/home/crisan007/Desktop/Tema_2_ok/Tema_2/src/Compound 
 

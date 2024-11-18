@@ -1,4 +1,4 @@
-# Install script for directory: /home/crisan007/Desktop/PAOO1/src
+# Install script for directory: /home/crisan007/Desktop/Tema_2_ok/Tema_2/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/crisan007/Desktop/PAOO1/build/src/Atom/cmake_install.cmake")
-  include("/home/crisan007/Desktop/PAOO1/build/src/Compound/cmake_install.cmake")
+  include("/home/crisan007/Desktop/Tema_2_ok/Tema_2/build/src/Atom/cmake_install.cmake")
+  include("/home/crisan007/Desktop/Tema_2_ok/Tema_2/build/src/Compound/cmake_install.cmake")
 
 endif()
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/crisan007/Desktop/PAOO1/src/Compound
+# Install script for directory: /home/crisan007/Desktop/Tema_2_ok/Tema_2/src/Compound
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

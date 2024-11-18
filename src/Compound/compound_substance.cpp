@@ -15,6 +15,8 @@ void CompoundSubstance::clearAtoms() {
     cout << "Cleared atoms successfully" << endl;
 }
 
+CompoundSubstance::CompoundSubstance() {}
+
 CompoundSubstance::CompoundSubstance(const vector<string> &atomSymbols) {
     for (const string &symbol : atomSymbols) {
         Atom* newAtom = new Atom(symbol);
@@ -64,8 +66,19 @@ void CompoundSubstance::displayMolecularFormula() const {
 void CompoundSubstance::display() const {
     for (const Atom* atom : atoms) {
         cout << "Atom: " << atom->getSymbol()
-                << ", Atomic number: " << atom->getAtomicNumber()
-                << ", Atomic mass: " << atom->getAtomicMass() << endl;
+             << ", Atomic number: " << atom->getAtomicNumber()
+             << ", Atomic mass: " << atom->getAtomicMass() << endl;
     }
     cout << "Compound details displayed successfully" << endl;
+}
+
+void CompoundSubstance::addAtom(Atom atom) {
+    Atom* newAtom = new Atom(atom);
+    atoms.push_back(newAtom);
+    atomCount[newAtom->getSymbol()]++;
+    cout << "Atom " << newAtom->getSymbol() << " added successfully" << endl;
+}
+
+vector<Atom*> CompoundSubstance::getAtoms() const {
+    return atoms;
 }

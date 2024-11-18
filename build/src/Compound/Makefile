@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/crisan007/Desktop/PAOO1
+CMAKE_SOURCE_DIR = /home/crisan007/Desktop/Tema_2_ok/Tema_2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/crisan007/Desktop/PAOO1/build
+CMAKE_BINARY_DIR = /home/crisan007/Desktop/Tema_2_ok/Tema_2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/crisan007/Desktop/PAOO1/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/crisan007/Desktop/PAOO1/build/CMakeFiles /home/crisan007/Desktop/PAOO1/build/src/Compound/CMakeFiles/progress.marks
-	cd /home/crisan007/Desktop/PAOO1/build && $(MAKE) -f CMakeFiles/Makefile2 src/Compound/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/crisan007/Desktop/PAOO1/build/CMakeFiles 0
+	cd /home/crisan007/Desktop/Tema_2_ok/Tema_2/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/crisan007/Desktop/Tema_2_ok/Tema_2/build/CMakeFiles /home/crisan007/Desktop/Tema_2_ok/Tema_2/build/src/Compound/CMakeFiles/progress.marks
+	cd /home/crisan007/Desktop/Tema_2_ok/Tema_2/build && $(MAKE) -f CMakeFiles/Makefile2 src/Compound/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/crisan007/Desktop/Tema_2_ok/Tema_2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/crisan007/Desktop/PAOO1/build && $(MAKE) -f CMakeFiles/Makefile2 src/Compound/clean
+	cd /home/crisan007/Desktop/Tema_2_ok/Tema_2/build && $(MAKE) -f CMakeFiles/Makefile2 src/Compound/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/crisan007/Desktop/PAOO1/build && $(MAKE) -f CMakeFiles/Makefile2 src/Compound/preinstall
+	cd /home/crisan007/Desktop/Tema_2_ok/Tema_2/build && $(MAKE) -f CMakeFiles/Makefile2 src/Compound/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/crisan007/Desktop/PAOO1/build && $(MAKE) -f CMakeFiles/Makefile2 src/Compound/preinstall
+	cd /home/crisan007/Desktop/Tema_2_ok/Tema_2/build && $(MAKE) -f CMakeFiles/Makefile2 src/Compound/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/crisan007/Desktop/PAOO1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/crisan007/Desktop/Tema_2_ok/Tema_2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/Compound/CMakeFiles/Compound.dir/rule:
-	cd /home/crisan007/Desktop/PAOO1/build && $(MAKE) -f CMakeFiles/Makefile2 src/Compound/CMakeFiles/Compound.dir/rule
+	cd /home/crisan007/Desktop/Tema_2_ok/Tema_2/build && $(MAKE) -f CMakeFiles/Makefile2 src/Compound/CMakeFiles/Compound.dir/rule
 .PHONY : src/Compound/CMakeFiles/Compound.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ Compound: src/Compound/CMakeFiles/Compound.dir/rule
 
 # fast build rule for target.
 Compound/fast:
-	cd /home/crisan007/Desktop/PAOO1/build && $(MAKE) -f src/Compound/CMakeFiles/Compound.dir/build.make src/Compound/CMakeFiles/Compound.dir/build
+	cd /home/crisan007/Desktop/Tema_2_ok/Tema_2/build && $(MAKE) -f src/Compound/CMakeFiles/Compound.dir/build.make src/Compound/CMakeFiles/Compound.dir/build
 .PHONY : Compound/fast
 
 compound_substance.o: compound_substance.cpp.o
@@ -131,7 +131,7 @@ compound_substance.o: compound_substance.cpp.o
 
 # target to build an object file
 compound_substance.cpp.o:
-	cd /home/crisan007/Desktop/PAOO1/build && $(MAKE) -f src/Compound/CMakeFiles/Compound.dir/build.make src/Compound/CMakeFiles/Compound.dir/compound_substance.cpp.o
+	cd /home/crisan007/Desktop/Tema_2_ok/Tema_2/build && $(MAKE) -f src/Compound/CMakeFiles/Compound.dir/build.make src/Compound/CMakeFiles/Compound.dir/compound_substance.cpp.o
 .PHONY : compound_substance.cpp.o
 
 compound_substance.i: compound_substance.cpp.i
@@ -140,7 +140,7 @@ compound_substance.i: compound_substance.cpp.i
 
 # target to preprocess a source file
 compound_substance.cpp.i:
-	cd /home/crisan007/Desktop/PAOO1/build && $(MAKE) -f src/Compound/CMakeFiles/Compound.dir/build.make src/Compound/CMakeFiles/Compound.dir/compound_substance.cpp.i
+	cd /home/crisan007/Desktop/Tema_2_ok/Tema_2/build && $(MAKE) -f src/Compound/CMakeFiles/Compound.dir/build.make src/Compound/CMakeFiles/Compound.dir/compound_substance.cpp.i
 .PHONY : compound_substance.cpp.i
 
 compound_substance.s: compound_substance.cpp.s
@@ -149,7 +149,7 @@ compound_substance.s: compound_substance.cpp.s
 
 # target to generate assembly for a file
 compound_substance.cpp.s:
-	cd /home/crisan007/Desktop/PAOO1/build && $(MAKE) -f src/Compound/CMakeFiles/Compound.dir/build.make src/Compound/CMakeFiles/Compound.dir/compound_substance.cpp.s
+	cd /home/crisan007/Desktop/Tema_2_ok/Tema_2/build && $(MAKE) -f src/Compound/CMakeFiles/Compound.dir/build.make src/Compound/CMakeFiles/Compound.dir/compound_substance.cpp.s
 .PHONY : compound_substance.cpp.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/crisan007/Desktop/PAOO1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/crisan007/Desktop/Tema_2_ok/Tema_2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/crisan007/Desktop/PAOO1/src/Atom/atom.cpp
+/home/crisan007/Desktop/Tema_2_ok/Tema_2/src/Atom/atom.cpp
 iostream
 -
 fstream
@@ -16,9 +16,9 @@ string
 unordered_map
 -
 atom.hpp
-/home/crisan007/Desktop/PAOO1/src/Atom/atom.hpp
+/home/crisan007/Desktop/Tema_2_ok/Tema_2/src/Atom/atom.hpp
 
-/home/crisan007/Desktop/PAOO1/src/Atom/atom.hpp
+/home/crisan007/Desktop/Tema_2_ok/Tema_2/src/Atom/atom.hpp
 iostream
 -
 fstream
