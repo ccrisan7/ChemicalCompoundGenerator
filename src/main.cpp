@@ -64,7 +64,6 @@ int main() {
     delete atom2;
     delete atom3;
     delete atom4;
-
     delete compound1;
     delete compound2;
     delete compound3;
