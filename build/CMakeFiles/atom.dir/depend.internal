@@ -3,5 +3,5 @@
 
 CMakeFiles/atom.dir/src/main.cpp.o
  ../src/Atom/atom.hpp
- ../src/Compound/compound_substance.hpp
+ ../src/Compound/metal.hpp
  /home/crisan007/Desktop/Tema_2_ok/Tema_2/src/main.cpp

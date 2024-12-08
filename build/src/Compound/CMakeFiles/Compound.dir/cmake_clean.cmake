@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Compound.dir/compound_substance.cpp.o"
+  "CMakeFiles/Compound.dir/metal.cpp.o"
   "libCompound.a"
   "libCompound.pdb"
 )

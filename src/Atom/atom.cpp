@@ -5,10 +5,11 @@
 
 #include "atom.hpp"
 
-using namespace std;
+// Initialize static atomic data
+std::unordered_map<std::string, std::pair<int, double>> Atom::atomicData;
 
+// Load data for the first 20 elements
 void Atom::loadAtomicData() {
-    // Populate atomicData directly with the first 20 elements
     atomicData["H"] = {1, 1.008};
     atomicData["He"] = {2, 4.0026};
     atomicData["Li"] = {3, 6.94};
@@ -30,9 +31,10 @@ void Atom::loadAtomicData() {
     atomicData["K"] = {19, 39.098};
     atomicData["Ca"] = {20, 40.078};
 
-    cout << "Atomic data loaded successfully" << endl;
+    std::cout << "Atomic data loaded successfully." << std::endl;
 }
 
+// Set atomic properties based on the symbol
 void Atom::setAtomicProperties() {
     if (atomicData.empty()) {
         loadAtomicData();
@@ -43,54 +45,48 @@ void Atom::setAtomicProperties() {
         atomicNumber = it->second.first;
         atomicMass = it->second.second;
     } else {
-        cerr << "Unknown element symbol: " << symbol << endl;
+        std::cerr << "Unknown element symbol: " << symbol << std::endl;
         atomicNumber = 0;
         atomicMass = 0.0;
     }
-    cout << "Atomic properties set successfully for " << symbol << endl;
 }
 
-Atom::Atom(const string &symbol) : symbol(symbol) {
+// Constructor for Atom
+Atom::Atom(const std::string& symbol) : symbol(symbol) {
     setAtomicProperties();
-    cout << "Constructor for Atom: " << symbol << endl;
 }
 
-Atom::Atom(const Atom &other) : symbol(other.symbol), atomicNumber(other.atomicNumber), atomicMass(other.atomicMass) {
-    cout << "Copy constructor for Atom: " << symbol << endl;
-}
+// Copy constructor
+Atom::Atom(const Atom& other) : symbol(other.symbol), atomicNumber(other.atomicNumber), atomicMass(other.atomicMass) {}
 
-Atom& Atom::operator=(const Atom &other) {
+// Assignment operator
+Atom& Atom::operator=(const Atom& other) {
     if (this != &other) {
         symbol = other.symbol;
         atomicNumber = other.atomicNumber;
         atomicMass = other.atomicMass;
-        cout << "!!Correct assignment operator for Atom: " << symbol << endl;
     }
+    std::cout << "\n!Confirmation of assignment operator successful!" << std::endl;
     return *this;
 }
 
-Atom::~Atom() {
-    cout << "Destructor for Atom: " << symbol << endl;
-}
+// Destructor
+Atom::~Atom() {}
 
-// Method to display the properties of the atom
+// Display atom details
 void Atom::display() const {
-    cout << "Symbol: " << symbol << endl;
-    cout << "Atomic Number: " << atomicNumber << endl;
-    cout << "Atomic Mass: " << atomicMass << " u" << endl;
+    std::cout << "Symbol: " << symbol << std::endl;
+    std::cout << "Atomic Number: " << atomicNumber << std::endl;
+    std::cout << "Atomic Mass: " << atomicMass << " u" << std::endl;
 }
 
-// Method to set the symbol of the atom and update properties
-void Atom::setSymbol(const std::string &newSymbol) {
+// Update the symbol and set properties
+void Atom::setSymbol(const std::string& newSymbol) {
     symbol = newSymbol;
     setAtomicProperties();
-    cout << "Symbol set to " << symbol << " and properties updated" << endl;
 }
 
-// Initialize the static member
-unordered_map<string, pair<int, double>> Atom::atomicData;
-
-
-string Atom::getSymbol() const { return symbol; }
+// Accessor methods
+std::string Atom::getSymbol() const { return symbol; }
 int Atom::getAtomicNumber() const { return atomicNumber; }
 double Atom::getAtomicMass() const { return atomicMass; }

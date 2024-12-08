@@ -6,37 +6,15 @@
 
 #IncludeRegexTransform: 
 
-../src/Atom/atom.hpp
+/home/crisan007/Desktop/Tema_2_ok/Tema_2/src/Compound/metal.cpp
+metal.hpp
+/home/crisan007/Desktop/Tema_2_ok/Tema_2/src/Compound/metal.hpp
 iostream
--
-fstream
--
-string
--
-unordered_map
 -
 
-/home/crisan007/Desktop/Tema_2_ok/Tema_2/src/Compound/compound_substance.cpp
-iostream
--
-vector
--
-unordered_map
--
+/home/crisan007/Desktop/Tema_2_ok/Tema_2/src/Compound/metal.hpp
 string
 -
-compound_substance.hpp
-/home/crisan007/Desktop/Tema_2_ok/Tema_2/src/Compound/compound_substance.hpp
-
-/home/crisan007/Desktop/Tema_2_ok/Tema_2/src/Compound/compound_substance.hpp
 iostream
 -
-vector
--
-unordered_map
--
-string
--
-atom.hpp
-/home/crisan007/Desktop/Tema_2_ok/Tema_2/src/Compound/atom.hpp
 

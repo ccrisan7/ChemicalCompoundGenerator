@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/crisan007/Desktop/Tema_2_ok/Tema_2/src/Compound/compound_substance.cpp" "/home/crisan007/Desktop/Tema_2_ok/Tema_2/build/src/Compound/CMakeFiles/Compound.dir/compound_substance.cpp.o"
+  "/home/crisan007/Desktop/Tema_2_ok/Tema_2/src/Compound/metal.cpp" "/home/crisan007/Desktop/Tema_2_ok/Tema_2/build/src/Compound/CMakeFiles/Compound.dir/metal.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

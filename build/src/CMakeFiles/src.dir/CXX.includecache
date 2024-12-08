@@ -9,30 +9,30 @@
 ../src/Atom/atom.hpp
 iostream
 -
-fstream
+unordered_map
 -
 string
--
-unordered_map
 -
 
-../src/Compound/compound_substance.hpp
-iostream
--
-vector
--
-unordered_map
--
+../src/Compound/metal.hpp
 string
 -
-atom.hpp
-../src/Compound/atom.hpp
+iostream
+-
 
 /home/crisan007/Desktop/Tema_2_ok/Tema_2/src/main.cpp
 iostream
 -
+memory
+-
+vector
+-
+thread
+-
+mutex
+-
 atom.hpp
 /home/crisan007/Desktop/Tema_2_ok/Tema_2/src/atom.hpp
-compound_substance.hpp
-/home/crisan007/Desktop/Tema_2_ok/Tema_2/src/compound_substance.hpp
+metal.hpp
+/home/crisan007/Desktop/Tema_2_ok/Tema_2/src/metal.hpp
 

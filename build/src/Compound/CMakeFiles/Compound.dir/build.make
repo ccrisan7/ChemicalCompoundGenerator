@@ -57,27 +57,27 @@ include src/Compound/CMakeFiles/Compound.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/Compound/CMakeFiles/Compound.dir/flags.make
 
-src/Compound/CMakeFiles/Compound.dir/compound_substance.cpp.o: src/Compound/CMakeFiles/Compound.dir/flags.make
-src/Compound/CMakeFiles/Compound.dir/compound_substance.cpp.o: ../src/Compound/compound_substance.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/crisan007/Desktop/Tema_2_ok/Tema_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Compound/CMakeFiles/Compound.dir/compound_substance.cpp.o"
-	cd /home/crisan007/Desktop/Tema_2_ok/Tema_2/build/src/Compound && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Compound.dir/compound_substance.cpp.o -c /home/crisan007/Desktop/Tema_2_ok/Tema_2/src/Compound/compound_substance.cpp
+src/Compound/CMakeFiles/Compound.dir/metal.cpp.o: src/Compound/CMakeFiles/Compound.dir/flags.make
+src/Compound/CMakeFiles/Compound.dir/metal.cpp.o: ../src/Compound/metal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/crisan007/Desktop/Tema_2_ok/Tema_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Compound/CMakeFiles/Compound.dir/metal.cpp.o"
+	cd /home/crisan007/Desktop/Tema_2_ok/Tema_2/build/src/Compound && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Compound.dir/metal.cpp.o -c /home/crisan007/Desktop/Tema_2_ok/Tema_2/src/Compound/metal.cpp
 
-src/Compound/CMakeFiles/Compound.dir/compound_substance.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compound.dir/compound_substance.cpp.i"
-	cd /home/crisan007/Desktop/Tema_2_ok/Tema_2/build/src/Compound && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/crisan007/Desktop/Tema_2_ok/Tema_2/src/Compound/compound_substance.cpp > CMakeFiles/Compound.dir/compound_substance.cpp.i
+src/Compound/CMakeFiles/Compound.dir/metal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compound.dir/metal.cpp.i"
+	cd /home/crisan007/Desktop/Tema_2_ok/Tema_2/build/src/Compound && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/crisan007/Desktop/Tema_2_ok/Tema_2/src/Compound/metal.cpp > CMakeFiles/Compound.dir/metal.cpp.i
 
-src/Compound/CMakeFiles/Compound.dir/compound_substance.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compound.dir/compound_substance.cpp.s"
-	cd /home/crisan007/Desktop/Tema_2_ok/Tema_2/build/src/Compound && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/crisan007/Desktop/Tema_2_ok/Tema_2/src/Compound/compound_substance.cpp -o CMakeFiles/Compound.dir/compound_substance.cpp.s
+src/Compound/CMakeFiles/Compound.dir/metal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compound.dir/metal.cpp.s"
+	cd /home/crisan007/Desktop/Tema_2_ok/Tema_2/build/src/Compound && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/crisan007/Desktop/Tema_2_ok/Tema_2/src/Compound/metal.cpp -o CMakeFiles/Compound.dir/metal.cpp.s
 
 # Object files for target Compound
 Compound_OBJECTS = \
-"CMakeFiles/Compound.dir/compound_substance.cpp.o"
+"CMakeFiles/Compound.dir/metal.cpp.o"
 
 # External object files for target Compound
 Compound_EXTERNAL_OBJECTS =
 
-src/Compound/libCompound.a: src/Compound/CMakeFiles/Compound.dir/compound_substance.cpp.o
+src/Compound/libCompound.a: src/Compound/CMakeFiles/Compound.dir/metal.cpp.o
 src/Compound/libCompound.a: src/Compound/CMakeFiles/Compound.dir/build.make
 src/Compound/libCompound.a: src/Compound/CMakeFiles/Compound.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/crisan007/Desktop/Tema_2_ok/Tema_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libCompound.a"

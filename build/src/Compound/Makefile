@@ -125,32 +125,32 @@ Compound/fast:
 	cd /home/crisan007/Desktop/Tema_2_ok/Tema_2/build && $(MAKE) -f src/Compound/CMakeFiles/Compound.dir/build.make src/Compound/CMakeFiles/Compound.dir/build
 .PHONY : Compound/fast
 
-compound_substance.o: compound_substance.cpp.o
+metal.o: metal.cpp.o
 
-.PHONY : compound_substance.o
+.PHONY : metal.o
 
 # target to build an object file
-compound_substance.cpp.o:
-	cd /home/crisan007/Desktop/Tema_2_ok/Tema_2/build && $(MAKE) -f src/Compound/CMakeFiles/Compound.dir/build.make src/Compound/CMakeFiles/Compound.dir/compound_substance.cpp.o
-.PHONY : compound_substance.cpp.o
+metal.cpp.o:
+	cd /home/crisan007/Desktop/Tema_2_ok/Tema_2/build && $(MAKE) -f src/Compound/CMakeFiles/Compound.dir/build.make src/Compound/CMakeFiles/Compound.dir/metal.cpp.o
+.PHONY : metal.cpp.o
 
-compound_substance.i: compound_substance.cpp.i
+metal.i: metal.cpp.i
 
-.PHONY : compound_substance.i
+.PHONY : metal.i
 
 # target to preprocess a source file
-compound_substance.cpp.i:
-	cd /home/crisan007/Desktop/Tema_2_ok/Tema_2/build && $(MAKE) -f src/Compound/CMakeFiles/Compound.dir/build.make src/Compound/CMakeFiles/Compound.dir/compound_substance.cpp.i
-.PHONY : compound_substance.cpp.i
+metal.cpp.i:
+	cd /home/crisan007/Desktop/Tema_2_ok/Tema_2/build && $(MAKE) -f src/Compound/CMakeFiles/Compound.dir/build.make src/Compound/CMakeFiles/Compound.dir/metal.cpp.i
+.PHONY : metal.cpp.i
 
-compound_substance.s: compound_substance.cpp.s
+metal.s: metal.cpp.s
 
-.PHONY : compound_substance.s
+.PHONY : metal.s
 
 # target to generate assembly for a file
-compound_substance.cpp.s:
-	cd /home/crisan007/Desktop/Tema_2_ok/Tema_2/build && $(MAKE) -f src/Compound/CMakeFiles/Compound.dir/build.make src/Compound/CMakeFiles/Compound.dir/compound_substance.cpp.s
-.PHONY : compound_substance.cpp.s
+metal.cpp.s:
+	cd /home/crisan007/Desktop/Tema_2_ok/Tema_2/build && $(MAKE) -f src/Compound/CMakeFiles/Compound.dir/build.make src/Compound/CMakeFiles/Compound.dir/metal.cpp.s
+.PHONY : metal.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Compound"
-	@echo "... compound_substance.o"
-	@echo "... compound_substance.i"
-	@echo "... compound_substance.s"
+	@echo "... metal.o"
+	@echo "... metal.i"
+	@echo "... metal.s"
 .PHONY : help
 
 

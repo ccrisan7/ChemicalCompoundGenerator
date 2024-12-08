@@ -219,7 +219,7 @@ atom_BINARY_DIR:STATIC=/home/crisan007/Desktop/Tema_2_ok/Tema_2/build
 atom_SOURCE_DIR:STATIC=/home/crisan007/Desktop/Tema_2_ok/Tema_2
 
 //Dependencies for the target
-src_LIB_DEPENDS:STATIC=general;Atom;general;Compound;
+src_LIB_DEPENDS:STATIC=general;Atom;general;Compound;general;pthread;
 
 
 ########################

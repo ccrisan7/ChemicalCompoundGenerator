@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/atom.dir/src/main.cpp.o  -o atom  src/libsrc.a src/Compound/libCompound.a src/Atom/libAtom.a 
+/usr/bin/c++    -rdynamic CMakeFiles/atom.dir/src/main.cpp.o  -o atom  src/libsrc.a src/Compound/libCompound.a src/Atom/libAtom.a -lpthread 
