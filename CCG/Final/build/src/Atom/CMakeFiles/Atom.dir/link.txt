@@ -1,2 +1,0 @@
-/usr/bin/ar qc libAtom.a  CMakeFiles/Atom.dir/atom.cpp.o
-/usr/bin/ranlib libAtom.a

@@ -1,2 +1,0 @@
-/usr/bin/ar qc libCompound.a  CMakeFiles/Compound.dir/metal.cpp.o
-/usr/bin/ranlib libCompound.a
