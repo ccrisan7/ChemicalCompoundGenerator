@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/crisan007/Desktop/Tema_2_ok/Tema_2/src/Compound/metal.cpp
+/home/crisan007/Desktop/Tema_3/Tema_2/src/Compound/metal.cpp
 metal.hpp
-/home/crisan007/Desktop/Tema_2_ok/Tema_2/src/Compound/metal.hpp
+/home/crisan007/Desktop/Tema_3/Tema_2/src/Compound/metal.hpp
 iostream
 -
 
-/home/crisan007/Desktop/Tema_2_ok/Tema_2/src/Compound/metal.hpp
+/home/crisan007/Desktop/Tema_3/Tema_2/src/Compound/metal.hpp
 string
 -
 iostream
