@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/Atom/atom.hpp
+iostream
+-
+unordered_map
+-
+string
+-
+
+../src/Compound/metal.hpp
+string
+-
+iostream
+-
+
+/home/crisan007/Desktop/Tema_3/Tema_2/src/main.cpp
+iostream
+-
+memory
+-
+vector
+-
+thread
+-
+mutex
+-
+atom.hpp
+/home/crisan007/Desktop/Tema_3/Tema_2/src/atom.hpp
+metal.hpp
+/home/crisan007/Desktop/Tema_3/Tema_2/src/metal.hpp
+
